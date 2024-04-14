@@ -1,0 +1,35 @@
+body {
+    font-family: "Abel", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#container-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 50px;
+}
+
+.menu {
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2rem;
+}
+
+#container-intro {
+    margin: 15px;
+    font-family: "Caveat", cursive;
+    font-size: 1.5em;
+
+}
