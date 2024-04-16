@@ -30,15 +30,22 @@ h2 {
 }
 
 #container-intro {
+    display: flex;
+    align-items: center;
     margin: 15px;
     font-family: "Caveat", cursive;
     font-size: 1.5em;
 
 }
 
+#container-intro img {
+    max-height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
 .container-project {
     display: flex;
-
     justify-content: space-evenly;
 }
 
