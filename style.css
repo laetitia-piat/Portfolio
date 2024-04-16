@@ -23,6 +23,11 @@ body {
     margin: 15px;
 }
 
+#container-menu a {
+    text-decoration: none;
+    color: white;
+}
+
 h2 {
     text-align: center;
     margin-top: 60px;
@@ -46,6 +51,7 @@ h2 {
 
 .container-project {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -55,4 +61,21 @@ h2 {
 
 .project h3 {
     text-align: center;
+}
+
+#container-github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-github a {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+#container-github img {
+    width: 50px;
+    margin: 0 10px;
 }
