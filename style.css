@@ -9,9 +9,9 @@ body {
 #container-menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 0.8em;
 }
 
 #logo {
@@ -55,8 +55,13 @@ h2 {
     justify-content: space-evenly;
 }
 
+.container-project img {
+    border: 1px solid grey;
+}
+
 .project {
     margin: 10px;
+
 }
 
 .project h3 {
@@ -78,4 +83,14 @@ h2 {
 #container-github img {
     width: 50px;
     margin: 0 10px;
+}
+
+.train-skills {
+    display: flex;
+}
+
+#training,
+#skills {
+    width: 50%;
+    border: 2px solid white;
 }
