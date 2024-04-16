@@ -135,3 +135,23 @@ form button {
     opacity: 10;
     transition: 0.8s;
 }
+
+.modal-titre {
+    font-family: "Caveat", cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+.modal-container img {
+    width: 200px;
+    margin: 40px;
+}
+
+.modal-container button {
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    font-family: "caveat";
+    background-color: white;
+
+}
