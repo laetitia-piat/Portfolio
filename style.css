@@ -99,23 +99,35 @@ h2 {
 }
 
 #form {
+    width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: auto;
+
+}
+
+.form-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .form-item label {
-    display: block;
     margin: 20px 0 10px 0;
+    align-items: start;
 }
 
-#form input {
-    width: 500px;
+#form input,
+#form textarea {
+    width: 100%;
     min-height: 25px;
+    border: none;
+    padding: 0;
 }
 
-form textarea {
-    width: 500px;
+
+#form textarea {
     height: 150px;
 }
 
