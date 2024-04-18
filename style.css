@@ -20,6 +20,10 @@ body {
     font-size: 0.8em;
 }
 
+h1 {
+    text-align: center;
+}
+
 #logo {
     width: 50px;
 }
