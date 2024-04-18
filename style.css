@@ -5,7 +5,6 @@
 
 body {
     width: 100%;
-    height: 100%;
     font-family: "Abel", sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -175,7 +174,10 @@ form button {
 }
 
 #particles-js {
-    position: fixed;
-    width: 100%;
+    position: absolute;
+    width: 96%;
     height: 100%;
 }
+
+/* Partie responsive */
+@media screen and (max-width: 444px) {}
