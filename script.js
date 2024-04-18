@@ -5,4 +5,5 @@ const btn = document.querySelector(".btn-modal")
 btn.addEventListener('click', function(){
     console.log("click!");
     modal.style.top = "-100%";
+    modal.style.width = "0%";
 });

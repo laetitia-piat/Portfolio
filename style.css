@@ -61,11 +61,13 @@ h2 {
     justify-content: space-evenly;
 }
 
-
+.project {
+    width: 350px;
+}
 
 .project img {
     border: 1px solid grey;
-    width: 350px;
+    width: 100%;
 }
 
 .project h3 {
@@ -180,4 +182,16 @@ form button {
 }
 
 /* Partie responsive */
-@media screen and (max-width: 444px) {}
+@media screen and (max-width: 444px) {
+    #container-menu {
+        font-size: 0.4em;
+    }
+
+    #logo {
+        width: 40px;
+    }
+
+    #container-intro {
+        margin: auto;
+    }
+}
