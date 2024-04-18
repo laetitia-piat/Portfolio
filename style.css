@@ -139,7 +139,7 @@ h2 {
 }
 
 form button {
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .modal-container {
@@ -198,16 +198,31 @@ form button {
     #container-intro {
         display: flex;
         flex-direction: column;
-        margin: auto;
+        margin: 10px 0;
     }
 
     #container-intro img {
         width: 100px;
         align-items: center;
+        margin: 0;
     }
 
     #container-intro p {
         font-size: 0.9em;
         margin: 5px;
+    }
+
+    .category {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .project h3 {
+        margin: 30px 0 10px 0;
+    }
+
+    #btn {
+        width: 60%;
+        margin: 30px auto;
     }
 }
