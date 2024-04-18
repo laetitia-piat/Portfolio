@@ -184,7 +184,7 @@ form button {
 /* Partie responsive */
 @media screen and (max-width: 444px) {
     #container-menu {
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
 
     #logo {
