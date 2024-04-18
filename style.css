@@ -1,5 +1,6 @@
 * {
     margin: 0;
+
 }
 
 body {
@@ -61,9 +62,7 @@ h2 {
     justify-content: space-evenly;
 }
 
-.project {
-    margin: 10px;
-}
+
 
 .project img {
     border: 1px solid grey;
