@@ -1,5 +1,4 @@
 const modal = document.querySelector(".modal-container")
-
 const btn = document.querySelector(".btn-modal")
 const main = document.querySelector("#main")
 
