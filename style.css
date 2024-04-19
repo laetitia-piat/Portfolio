@@ -15,45 +15,45 @@ body {
     display: none;
 }
 
+/*MENU*/
 #container-menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    font-size: 0.8em;
+    justify-content: space-around;
+    font-size: 1.3em;
     background-color: black;
-}
-
-h1 {
-    text-align: center;
+    padding: 15px 0;
 }
 
 #logo {
     width: 50px;
 }
 
-.menu {
-    font-size: 1.5em;
-    margin: 15px;
-}
-
 #container-menu a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
-h2 {
+/*-------TITRE DES CATEGORIES------*/
+
+.category {
     text-align: center;
     margin: 60px 0 30px 0;
     font-size: 2rem;
 }
 
+/*----------PARTIE INTRODUCTION------------*/
+
 #container-intro {
     display: flex;
     align-items: center;
-    margin: 15px;
+    margin: auto;
+    min-height: 350px;
+    padding: 30px 70px 30px 70px;
     font-family: "Caveat", cursive;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    background-color: #a31f1f9d;
 
 }
 
@@ -63,23 +63,12 @@ h2 {
     margin-right: 30px;
 }
 
+/*-----------PARTIE PROJETS-----------*/
+
 .container-project {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.project {
-    width: 350px;
-}
-
-.project img {
-    border: 1px solid grey;
-    width: 100%;
-}
-
-.project h3 {
-    text-align: center;
 }
 
 #container-github {
@@ -99,6 +88,22 @@ h2 {
     width: 50px;
     margin: 0 10px;
 }
+
+.project {
+    width: 350px;
+    margin: 15px 0;
+}
+
+.project img {
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.project h3 {
+    text-align: center;
+}
+
+
 
 .train-skills {
     display: flex;
@@ -134,6 +139,8 @@ ul {
     list-style: pc;
 }
 
+/*-------------PARTIE FORMULAIRE-------------*/
+
 #form {
     width: 60%;
     display: flex;
@@ -161,7 +168,6 @@ ul {
     border: 1px solid black;
 }
 
-
 #form textarea {
     height: 150px;
 }
@@ -170,6 +176,8 @@ form button {
     margin: 20px auto;
     width: 60%;
 }
+
+/*-----------PARTIE FENETRE MODALE---------*/
 
 .modal-container {
     height: 100%;
@@ -189,6 +197,7 @@ form button {
 
 .modal-titre {
     font-family: "Caveat", cursive;
+    color: white;
     font-size: 3em;
     margin: 0;
 }
@@ -214,8 +223,13 @@ form button {
     height: 100%;
 }
 
-/* Partie responsive */
+/*-------- PARTIE RESPONSIVE------------*/
+
 @media screen and (max-width: 444px) {
+    #main {
+        margin: 0 7px;
+    }
+
     #container-menu {
         font-size: 0.6em;
     }
