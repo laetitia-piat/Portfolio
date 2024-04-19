@@ -120,8 +120,18 @@ ul {
     suffix: " ";
 }
 
-li {
+.train li {
     list-style: fuse;
+}
+
+@counter-style pc {
+    system: cyclic;
+    symbols: "\1F4BB";
+    suffix: " "
+}
+
+.skills li {
+    list-style: pc;
 }
 
 #form {
