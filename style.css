@@ -271,6 +271,17 @@ form button {
         margin: 20px 0 10px 0;
     }
 
+    .train-skills {
+        flex-direction: column;
+    }
+
+    #training,
+    #skills {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
     #btn {
         width: 60%;
         margin: 30px auto;
