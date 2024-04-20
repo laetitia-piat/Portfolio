@@ -140,6 +140,10 @@ ul {
 }
 
 /*-------------PARTIE FORMULAIRE-------------*/
+#container-form {
+    /*background-image: url("images/programming.jpg");
+    opacity: 0.5;*/
+}
 
 #form {
     width: 60%;
@@ -200,6 +204,7 @@ form button {
     color: white;
     font-size: 3em;
     margin: 0;
+    text-align: center;
 }
 
 .modal-container img {
@@ -231,7 +236,7 @@ form button {
     }
 
     #container-menu {
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
 
     #logo {
@@ -242,6 +247,8 @@ form button {
         display: flex;
         flex-direction: column;
         margin: 10px 0;
+        border-radius: 5%;
+        padding: 20px 20px 30px 20px;
     }
 
     #container-intro img {
@@ -257,11 +264,11 @@ form button {
 
     .category {
         font-size: 1.8rem;
-        margin-bottom: 30px;
+        margin: 30px 0 20px 0
     }
 
     .project h3 {
-        margin: 30px 0 10px 0;
+        margin: 20px 0 10px 0;
     }
 
     #btn {
