@@ -62,7 +62,9 @@ body {
 }
 
 /*-----------PARTIE PROJETS-----------*/
-
+#container-training {
+  padding: 15px;
+}
 .container-project {
   display: flex;
   flex-wrap: wrap;
@@ -136,10 +138,10 @@ ul {
 }
 
 /*-------------PARTIE FORMULAIRE-------------*/
-#container-form {
+/* #container-form {
   /*background-image: url("images/programming.jpg");
-    opacity: 0.5;*/
-}
+    opacity: 0.5;
+} */
 
 #form {
   width: 60%;
