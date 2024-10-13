@@ -63,7 +63,7 @@ body {
 
 /*-----------PARTIE PROJETS-----------*/
 #container-training {
-  padding: 15px;
+  padding: 0 20px 0 20px;
 }
 .container-project {
   display: flex;
