@@ -1,289 +1,285 @@
 * {
-    margin: 0;
-
+  margin: 0;
 }
 
 body {
-    font-family: "Abel", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    background-color: white;
-    color: rgb(0, 0, 0);
+  font-family: "Abel", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: white;
+  color: rgb(0, 0, 0);
 }
 
 #main {
-    display: none;
+  display: none;
 }
 
 /*MENU*/
 #container-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 1.3em;
-    background-color: black;
-    padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.3em;
+  background-color: black;
+  padding: 15px 0;
 }
 
 #logo {
-    width: 50px;
+  width: 50px;
 }
 
 #container-menu a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /*-------TITRE DES CATEGORIES------*/
 
 .category {
-    text-align: center;
-    margin: 60px 0 30px 0;
-    font-size: 2rem;
+  text-align: center;
+  margin: 60px 0 30px 0;
+  font-size: 2rem;
 }
 
 /*----------PARTIE INTRODUCTION------------*/
 
 #container-intro {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    min-height: 350px;
-    padding: 30px 70px 30px 70px;
-    font-family: "Caveat", cursive;
-    font-size: 1.6em;
-    background-color: #a31f1f9d;
-
+  display: flex;
+  align-items: center;
+  margin: auto;
+  min-height: 350px;
+  padding: 30px 70px 30px 70px;
+  font-family: "Caveat", cursive;
+  font-size: 1.6em;
+  background-color: #a31f1f9d;
 }
 
 #container-intro img {
-    max-height: 150px;
-    border-radius: 50%;
-    margin-right: 30px;
+  max-height: 150px;
+  border-radius: 50%;
+  margin-right: 30px;
 }
 
 /*-----------PARTIE PROJETS-----------*/
 
 .container-project {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 #container-github {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 #container-github a {
-    color: rgb(0, 0, 0);
-    font-size: 1.5em;
-    margin: 0 10px;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  margin: 0 10px;
 }
 
 #container-github img {
-    width: 50px;
-    margin: 0 10px;
+  width: 50px;
+  margin: 0 10px;
 }
 
 .project {
-    width: 350px;
-    margin: 15px 0;
+  width: 350px;
+  margin: 15px 0;
 }
 
 .project img {
-    border: 1px solid grey;
-    width: 100%;
+  border: 1px solid grey;
+  width: 100%;
 }
 
 .project h3 {
-    text-align: center;
+  text-align: center;
 }
 
-
-
 .train-skills {
-    display: flex;
+  display: flex;
 }
 
 #training,
 #skills {
-    width: 50%;
-    border: 1px solid black;
+  width: 50%;
+  border: 1px solid black;
 }
 
 ul {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 @counter-style fuse {
-    system: cyclic;
-    symbols: "\1F680";
-    suffix: " ";
+  system: cyclic;
+  symbols: "\1F680";
+  suffix: " ";
 }
 
 .train li {
-    list-style: fuse;
+  list-style: fuse;
 }
 
 @counter-style pc {
-    system: cyclic;
-    symbols: "\1F4BB";
-    suffix: " "
+  system: cyclic;
+  symbols: "\1F4BB";
+  suffix: " ";
 }
 
 .skills li {
-    list-style: pc;
+  list-style: pc;
 }
 
 /*-------------PARTIE FORMULAIRE-------------*/
 #container-form {
-    /*background-image: url("images/programming.jpg");
+  /*background-image: url("images/programming.jpg");
     opacity: 0.5;*/
 }
 
 #form {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .form-item {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-item label {
-    margin: 20px 0 10px 0;
-    align-items: start;
+  margin: 20px 0 10px 0;
+  align-items: start;
 }
 
 #form input,
 #form textarea {
-    width: 100%;
-    min-height: 25px;
-    border: none;
-    padding: 0;
-    border: 1px solid black;
+  width: 100%;
+  min-height: 25px;
+  border: none;
+  padding: 0;
+  border: 1px solid black;
 }
 
 #form textarea {
-    height: 150px;
+  height: 150px;
 }
 
 form button {
-    margin: 20px auto;
-    width: 60%;
+  margin: 20px auto;
+  width: 60%;
 }
 
 /*-----------PARTIE FENETRE MODALE---------*/
 
 .modal-container {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    margin-right: 0;
-    opacity: 10;
-    transition: 0.8s;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-right: 0;
+  opacity: 10;
+  transition: 0.8s;
 }
 
 .modal-titre {
-    font-family: "Caveat", cursive;
-    color: white;
-    font-size: 3em;
-    margin: 0;
-    text-align: center;
+  font-family: "Caveat", cursive;
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
 }
 
 .modal-container img {
-    width: 200px;
-    margin: 40px;
+  width: 200px;
+  margin: 40px;
 }
 
 .modal-container button {
-    position: absolute;
-    bottom: 100px;
-    width: 150px;
-    height: 40px;
-    font-size: 2em;
-    font-family: "caveat";
-    background-color: white;
+  position: absolute;
+  bottom: 100px;
+  width: 150px;
+  height: 40px;
+  font-size: 2em;
+  font-family: "caveat";
+  background-color: white;
 }
 
 #particles-js {
-    position: absolute;
-    width: 96%;
-    height: 100%;
+  position: absolute;
+  width: 96%;
+  height: 100%;
 }
 
 /*-------- PARTIE RESPONSIVE------------*/
 
 @media screen and (max-width: 444px) {
-    #main {
-        margin: 0 7px;
-    }
+  #main {
+    margin: 0 7px;
+  }
 
-    #container-menu {
-        font-size: 0.9em;
-    }
+  #container-menu {
+    font-size: 0.9em;
+  }
 
-    #logo {
-        width: 40px;
-    }
+  #logo {
+    width: 40px;
+  }
 
-    #container-intro {
-        display: flex;
-        flex-direction: column;
-        margin: 10px 0;
-        border-radius: 5%;
-        padding: 20px 20px 30px 20px;
-    }
+  #container-intro {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    border-radius: 5%;
+    padding: 20px 20px 30px 20px;
+  }
 
-    #container-intro img {
-        width: 100px;
-        align-items: center;
-        margin: 0;
-    }
+  #container-intro img {
+    width: 100px;
+    align-items: center;
+    margin: 0;
+  }
 
-    #container-intro p {
-        font-size: 0.9em;
-        margin: 5px;
-    }
+  #container-intro p {
+    font-size: 0.9em;
+    margin: 5px;
+  }
 
-    .category {
-        font-size: 1.8rem;
-        margin: 30px 0 20px 0
-    }
+  .category {
+    font-size: 1.8rem;
+    margin: 30px 0 20px 0;
+  }
 
-    .project h3 {
-        margin: 20px 0 10px 0;
-    }
+  .project h3 {
+    margin: 20px 0 10px 0;
+  }
 
-    .train-skills {
-        flex-direction: column;
-    }
+  .train-skills {
+    flex-direction: column;
+  }
 
-    #training,
-    #skills {
-        width: 90%;
-        margin: auto;
-        margin-bottom: 10px;
-    }
+  #training,
+  #skills {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
 
-    #btn {
-        width: 60%;
-        margin: 30px auto;
-    }
+  #btn {
+    width: 60%;
+    margin: 30px auto;
+  }
 }
