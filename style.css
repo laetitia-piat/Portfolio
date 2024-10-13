@@ -38,7 +38,7 @@ body {
 
 .category {
   text-align: center;
-  margin: 60px 0 30px 0;
+  padding: 50px 0 50px 0;
   font-size: 2rem;
 }
 
@@ -63,12 +63,22 @@ body {
 
 /*-----------PARTIE PROJETS-----------*/
 #container-training {
+  margin-top: 60px;
   padding: 0 20px 0 20px;
+  margin: auto;
+  background-color: black;
+  color: white;
 }
+
 .container-project {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+#container-wp {
+  padding: 0 40 px 0 40px;
 }
 
 #container-github {
@@ -105,12 +115,17 @@ body {
 
 .train-skills {
   display: flex;
+  justify-content: center;
 }
 
 #training,
 #skills {
-  width: 50%;
   border: 1px solid black;
+  padding: 10px;
+}
+
+#training {
+  width: 60%;
 }
 
 ul {
@@ -148,6 +163,7 @@ ul {
   display: flex;
   flex-direction: column;
   margin: auto;
+  padding-bottom: 60px;
 }
 
 .form-item {
@@ -174,9 +190,10 @@ ul {
   height: 150px;
 }
 
-form button {
+#btn {
   margin: 20px auto;
-  width: 60%;
+  width: 40%;
+  height: 30px;
 }
 
 /*-----------PARTIE FENETRE MODALE---------*/
@@ -262,7 +279,7 @@ form button {
 
   .category {
     font-size: 1.8rem;
-    margin: 30px 0 20px 0;
+    padding: 30px 0 20px 0;
   }
 
   .project h3 {
